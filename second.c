@@ -3,5 +3,6 @@ int main(){
     printf("Hello Jamil\n");
     int a;
     scanf("%d",&a);
-    printf("%d",a);
+    printf("printed value of a is:%d",a);
+    
 }
