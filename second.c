@@ -4,6 +4,6 @@ int main(){
     int a;
     scanf("%d",&a);
     printf("printed value of a is:%d",a);
-    printf("hello world")
+    printf("hello world");
     
 }
