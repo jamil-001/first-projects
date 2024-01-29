@@ -5,5 +5,5 @@ int main(){
     scanf("%d",&a);
     printf("printed value of a is:%d",a);
     printf("hello world");
-    
+    //hello editor
 }
