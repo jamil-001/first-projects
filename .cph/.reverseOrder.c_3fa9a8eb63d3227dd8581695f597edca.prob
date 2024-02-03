@@ -1,0 +1,1 @@
+{"name":"Local: reverseOrder","url":"d:\\first-projects\\reverseOrder.c","tests":[{"id":1706942119491,"input":"5\n1 2 3 4 5","output":"5 4 3 2 1"},{"id":1706942223298,"input":"8\n3 3 4 4 5 8 7 9","output":"9 7 8 5 4 4 3 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\first-projects\\reverseOrder.c","group":"local","local":true}
