@@ -1,18 +1,29 @@
 #include<stdio.h>
+#include<stdbool.h>
+
 int main(){
-    
-    int a[3][4],cnt=1;
-    for(int i=0;i<3;i++){
-        for(int j=0;j<4;j++){
-            a[i][j]=cnt;
-            cnt++;
+    int mx=123;
+    int a[mx][mx];
+    int n,m;
+    scanf("%d %d",&n,&m);
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            scanf("%d",&a[i][j]);
         }
     }
-    for(int i=0;i<3;i++){
-        for(int j=0;j<4;j++){
-            printf("(%d, %d) %d",i,j,a[i][j]);
+    int x;
+    scanf("%d",&x);
+    bool exist=false;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(a[i][j] == x){
+                exist=true;
+            }
         }
-        printf("\n");
+        if(exist)break;
+
     }
+    if(exist)printf("will not take number\n");
+    else printf("will take number\n");
     return 0;
 }

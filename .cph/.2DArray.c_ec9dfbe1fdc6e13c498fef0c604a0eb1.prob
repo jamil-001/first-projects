@@ -1,0 +1,1 @@
+{"name":"Local: 2DArray","url":"d:\\first-projects\\2DArray.c","tests":[{"id":1707328261069,"input":"2 2\n1 2\n3 4\n3\n","output":"will not take number"},{"id":1707328279801,"input":"2 2\n1 2\n3 4\n10","output":"will take number\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\first-projects\\2DArray.c","group":"local","local":true}
