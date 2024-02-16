@@ -1,0 +1,1 @@
+{"name":"Local: Fibonacci","url":"d:\\first-projects\\Fibonacci.cpp","tests":[{"id":1708086142372,"input":"1","output":"0"},{"id":1708087567704,"input":"5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\first-projects\\Fibonacci.cpp","group":"local","local":true}
